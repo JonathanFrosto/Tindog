@@ -1,0 +1,176 @@
+/* 
+fonts:
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h2{
+    line-height: 1.5;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+/* reusables classes */
+
+.container-fluid{
+    padding: 100px 15%;
+}
+
+.red-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+/* title section */
+
+#title{
+    height: 100vh;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 40px 15% 0;
+}
+
+#title h1{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+#title img{
+    width: 60%;
+    transform: rotate(25deg);
+    margin-left: 60px;
+}
+
+.btn-download{
+    margin: 5% 3% 5% 0;
+}
+
+/* features section */
+
+#features{
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+#features h3{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+#features i{
+    color: #ef8172;
+    font-size: 4.5rem;
+    margin-bottom: 20px;
+}
+
+#features i:hover{
+    color: #ff4c68;
+}
+
+#features p{
+    color: #8f8f8f;
+    padding: 0 5%   ;
+}
+
+/* testimonials section */
+
+#testimonials{
+    color: white;
+    background-color:#ef8172;
+}
+
+#testimonials img{
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+/* press section */
+
+#press{
+    background-color:#ef8172;
+    padding-bottom: 100px;
+}
+
+.press-img{
+    width: 15%;
+    margin: 0 20px;
+}
+
+/* pricing section */
+
+.pricing-column{
+    padding: 5% 3%;
+}
+
+/* cta section */
+
+#cta{
+    background-color: #ff4c68;
+    color: white;
+}
+
+#cta h3{
+    font-weight: 900;
+    padding: 0 5%;
+    font-size: 2.8rem;
+    line-height: 1.5;
+}
+
+/* footer section */
+
+#footer{
+    padding: 100px 0;
+}
+#footer i{
+    color: black;
+    margin: 0 15px 20px ;
+    font-size: 1.5rem;
+}
+
+
+/* media query */
+
+@media (max-width: 1028px ){
+    #title{
+        text-align: center;
+        height: auto;
+        padding-bottom: 100px;
+        
+    }
+    #title img{
+        transform: rotate(0deg);
+        margin: 20px 0;
+    }
+    .div-features{
+        margin-bottom: 50px;
+    }
+
+}
